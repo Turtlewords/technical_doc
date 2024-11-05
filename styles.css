@@ -1,3 +1,55 @@
+@media (max-width: 1250px) {
+    body {
+        width: 100vw;
+    }
+}
+
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #DCDCDC;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.content {
+    margin-left: 15vw;
+}
+
+nav {
+    width: 15vw;
+    height: 100vw;
+    border-right: 3px solid black;
+    position: fixed;
+    left:0;
+    top:0;
+}
+
+section {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.overflow-text {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: green;
+}
+
+.nav-link {
+    padding: 10px;
+}
+
